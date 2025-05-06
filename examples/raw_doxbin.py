@@ -1,6 +1,5 @@
 from seleniumbase import SB
 import time
-import pyautogui
 
 BASE_URL = "https://doxbin.com/"
 
