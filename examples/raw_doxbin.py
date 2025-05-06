@@ -1,4 +1,5 @@
 from seleniumbase import SB
+import time
 
 BASE_URL = "https://doxbin.com/"
 
@@ -20,8 +21,5 @@ with SB(uc=True,
     if 'Pinned Pastes' in sb.driver.page_source:
         print('test passed')
     sb.driver.save_screenshot('doxbin.png')
-
-    
-
 
 print('done')
