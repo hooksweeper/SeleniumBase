@@ -1,4 +1,7 @@
-from seleniumbase import Driver, SB
+from seleniumbase import SB
+
+BASE_URL = "https://doxbin.com/"
+
 with SB(uc=True,
         xvfb=True,
         browser="Chrome") as sb:
